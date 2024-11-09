@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public GameObject[] weapon;
     public shootingWeapon[] gun;
     int gunEquiped = 0;
-    int weaponEquiped = 1;
+    public Animator animator;
 
     Vector2 mousePos;
 
@@ -20,7 +20,12 @@ public class PlayerController : MonoBehaviour
 
     public Camera cam;
 
-    public bool[] inventory = { false, false, false, false, false };
+    public bool[] inventory = { false, false, false, false, false, false, false };
+    public int equiped;
+
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
 
     void Start()
     {
@@ -37,22 +42,61 @@ public class PlayerController : MonoBehaviour
 
         Vector2 lookDirection = mousePos - body.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
-        weapon[weaponEquiped].transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+        
 
-        if (inventory[0]) { weapon[weaponEquiped].SetActive(true); }
+        if (Input.GetKeyDown(KeyCode.Alpha1)){ equiped = 0; }
+        else if (Input.GetKeyDown(KeyCode.Alpha2)){ equiped = 1; }
+        else if (Input.GetKeyDown(KeyCode.Alpha3)){ equiped = 2; }
+        else if (Input.GetKeyDown(KeyCode.Alpha4)){ equiped = 3; gunEquiped = 0; }
+        else if (Input.GetKeyDown(KeyCode.Alpha5)){ equiped = 4; gunEquiped = 1; }
+        else if (Input.GetKeyDown(KeyCode.Alpha6)){ equiped = 5; gunEquiped = 2; }
+        
 
-        if (inventory[1]) { 
-            weapon[weaponEquiped].SetActive(true);
-            if (shootingDelay >= 600)
+        weapon[equiped].transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+
+        if (inventory[equiped])
+        {
+            for (int i = 0; i < inventory.Length; i++)
             {
-                if (Input.GetButtonDown("Fire1"))
-                {
-                    gun[gunEquiped].Fire();
-                    shootingDelay = 0;
-                }
+                if (i == equiped) { weapon[i].SetActive(true); } else { weapon[i].SetActive(false); }
             }
-            else { shootingDelay++; }
+            if (Input.GetButtonDown("Fire1") && equiped <= 2) { mele(); }
+            else { shoot(); }
         }
+
     }
 
+    void shoot()
+    {
+        if (shootingDelay >= 600)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                gun[gunEquiped].Fire();
+                shootingDelay = 0;
+            }
+        }
+        else { shootingDelay++; }
+    }
+
+    void mele()
+    {
+        animator.SetTrigger("attack");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies) 
+        {
+            Debug.Log(enemy.name);
+        }
+    }
+    /*
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    */
 }

@@ -8,7 +8,6 @@ public class ItemPickup : MonoBehaviour
     {
         if (col.CompareTag("Player") && Input.GetButton("Fire1")) 
         {
-            Debug.Log("picked up!");
             FindFirstObjectByType<PlayerController>().inventory[itemNum] = true;
             Destroy(gameObject);
         } 
