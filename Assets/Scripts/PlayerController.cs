@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
 
+    public GameObject[] hearts;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -92,6 +94,11 @@ public class PlayerController : MonoBehaviour
             for (int i = 0; i < inventory.Length; i++) { inventory[i] = false; }
             gameObject.transform.position = new Vector3(0, 0, 0);
             for (int i = 0; i < inventory.Length; i++) {weapon[i].SetActive(false); }
+        }
+
+        for (int i = 0; i < hearts.Length; i++) 
+        {
+            if (health >= i + 1) { hearts[i].SetActive(true); } else { hearts[i].SetActive(false); }
         }
 
     }
