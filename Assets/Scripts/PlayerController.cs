@@ -1,3 +1,4 @@
+using TMPro.Examples;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
+
+    public GameObject[] hearts;
 
     void Start()
     {
@@ -64,14 +67,12 @@ public class PlayerController : MonoBehaviour
             }
             else 
             {
-                Debug.Log("plus");
                 scale.y = -1;
             }
         }
         else if (equiped > 2) { weapon[equiped].GetComponentInChildren<SpriteRenderer>().flipY = true; }
         else 
         {
-            Debug.Log("minus");
             scale.y = 1;
         }
 
@@ -85,6 +86,19 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetButtonDown("Fire1") && equiped <= 2) { mele(); }
             else { shoot(); }
+        } else { for (int i = 0; i < inventory.Length; i++) { weapon[i].SetActive(false); } }
+        if (health <= 0) 
+        {
+            Debug.Log("Died");
+            health = 3;
+            for (int i = 0; i < inventory.Length; i++) { inventory[i] = false; }
+            gameObject.transform.position = new Vector3(0, 0, 0);
+            for (int i = 0; i < inventory.Length; i++) {weapon[i].SetActive(false); }
+        }
+
+        for (int i = 0; i < hearts.Length; i++) 
+        {
+            if (health >= i + 1) { hearts[i].SetActive(true); } else { hearts[i].SetActive(false); }
         }
 
     }
