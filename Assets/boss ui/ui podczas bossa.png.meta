@@ -1,0 +1,3200 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 7fe1a2c2021e15742aafb3bde7065683
+=======
+guid: 1ab4d02f1f161df448986b3147539a7b
+>>>>>>> d1e3fdade56db6b356a45b1a09272d0731e14e8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6185943960684620644
+    second: ui podczas bossa_0
+  - first:
+      213: -6193562707010484739
+    second: ui podczas bossa_1
+  - first:
+      213: 2767118471501150288
+    second: ui podczas bossa_2
+  - first:
+      213: -6540756481005066164
+    second: ui podczas bossa_3
+  - first:
+      213: 4471522317281378303
+    second: ui podczas bossa_4
+  - first:
+      213: -1233323365538364004
+    second: ui podczas bossa_5
+  - first:
+      213: 8370265611560931264
+    second: ui podczas bossa_6
+  - first:
+      213: 8391025312287883804
+    second: ui podczas bossa_7
+  - first:
+      213: 1654289477309061835
+    second: ui podczas bossa_8
+  - first:
+      213: 2511308802806457770
+    second: ui podczas bossa_9
+  - first:
+      213: -1487091294534740676
+    second: ui podczas bossa_10
+  - first:
+      213: -5709438780892209633
+    second: ui podczas bossa_11
+  - first:
+      213: 3429950246917140414
+    second: ui podczas bossa_12
+  - first:
+      213: -6575292533586138556
+    second: ui podczas bossa_13
+  - first:
+      213: -2847425637570106418
+    second: ui podczas bossa_14
+  - first:
+      213: 3133990123228151000
+    second: ui podczas bossa_15
+  - first:
+      213: 6139168623364674850
+    second: ui podczas bossa_16
+  - first:
+      213: -1974492007110683580
+    second: ui podczas bossa_17
+  - first:
+      213: 6462620700216058268
+    second: ui podczas bossa_18
+  - first:
+      213: 968968415375288984
+    second: ui podczas bossa_19
+  - first:
+      213: 3272836687510558522
+    second: ui podczas bossa_20
+  - first:
+      213: 5240013306516412781
+    second: ui podczas bossa_21
+  - first:
+      213: 1547543047890543791
+    second: ui podczas bossa_22
+  - first:
+      213: -8742353634069302131
+    second: ui podczas bossa_23
+  - first:
+      213: 8497116512054705044
+    second: ui podczas bossa_24
+  - first:
+      213: -1551747739251571914
+    second: ui podczas bossa_25
+  - first:
+      213: 6957905157969494376
+    second: ui podczas bossa_26
+  - first:
+      213: -4354293942642317376
+    second: ui podczas bossa_27
+  - first:
+      213: 9130094889060767194
+    second: ui podczas bossa_28
+  - first:
+      213: -7775906337659218131
+    second: ui podczas bossa_29
+  - first:
+      213: 1985378117300153894
+    second: ui podczas bossa_30
+  - first:
+      213: -2113426866493072540
+    second: ui podczas bossa_31
+  - first:
+      213: 5138740708993671302
+    second: ui podczas bossa_32
+  - first:
+      213: -496674504973885928
+    second: ui podczas bossa_33
+  - first:
+      213: -5710054155278737669
+    second: ui podczas bossa_34
+  - first:
+      213: 440966871979150506
+    second: ui podczas bossa_35
+  - first:
+      213: 8460886532883866425
+    second: ui podczas bossa_36
+  - first:
+      213: 876553332882745570
+    second: ui podczas bossa_37
+  - first:
+      213: -2016254606334585542
+    second: ui podczas bossa_38
+  - first:
+      213: 5587512711560456862
+    second: ui podczas bossa_39
+  - first:
+      213: -2677429816327757960
+    second: ui podczas bossa_40
+  - first:
+      213: 2566281274810804500
+    second: ui podczas bossa_41
+  - first:
+      213: -7850232982000861187
+    second: ui podczas bossa_42
+  - first:
+      213: -8657304057331719103
+    second: ui podczas bossa_43
+  - first:
+      213: 7703494590199173942
+    second: ui podczas bossa_44
+  - first:
+      213: -5421218824679624816
+    second: ui podczas bossa_45
+  - first:
+      213: 8283503878130359950
+    second: ui podczas bossa_46
+  - first:
+      213: 6532933990621237090
+    second: ui podczas bossa_47
+  - first:
+      213: -2185906141108181237
+    second: ui podczas bossa_48
+  - first:
+      213: -6471644745173707699
+    second: ui podczas bossa_49
+  - first:
+      213: 7640753580863189514
+    second: ui podczas bossa_50
+  - first:
+      213: -3778324201120776463
+    second: ui podczas bossa_51
+  - first:
+      213: 9067005425444055481
+    second: ui podczas bossa_52
+  - first:
+      213: -7554368926623478745
+    second: ui podczas bossa_53
+  - first:
+      213: -1781581701353381944
+    second: ui podczas bossa_54
+  - first:
+      213: -5414663128013960039
+    second: ui podczas bossa_55
+  - first:
+      213: 7599013068651579820
+    second: ui podczas bossa_56
+  - first:
+      213: -7686592006051374844
+    second: ui podczas bossa_57
+  - first:
+      213: -384787472668527047
+    second: ui podczas bossa_58
+  - first:
+      213: -251392058757104885
+    second: ui podczas bossa_59
+  - first:
+      213: 8105997000033826194
+    second: ui podczas bossa_60
+  - first:
+      213: -7679564823148639253
+    second: ui podczas bossa_61
+  - first:
+      213: -5222144193396851816
+    second: ui podczas bossa_62
+  - first:
+      213: 4257311085574173202
+    second: ui podczas bossa_63
+  - first:
+      213: -4268975026077328070
+    second: ui podczas bossa_64
+  - first:
+      213: 6199909346859558391
+    second: ui podczas bossa_65
+  - first:
+      213: 3623741639673864369
+    second: ui podczas bossa_66
+  - first:
+      213: -4558403385553382683
+    second: ui podczas bossa_67
+  - first:
+      213: 3528928330016948800
+    second: ui podczas bossa_68
+  - first:
+      213: -1177105507582935838
+    second: ui podczas bossa_69
+  - first:
+      213: -2486025540129020257
+    second: ui podczas bossa_70
+  - first:
+      213: 5529528944018843143
+    second: ui podczas bossa_71
+  - first:
+      213: -3527683219726704248
+    second: ui podczas bossa_72
+  - first:
+      213: -2279708636074964326
+    second: ui podczas bossa_73
+  - first:
+      213: -2577136752606137573
+    second: ui podczas bossa_74
+  - first:
+      213: 8564796554707081230
+    second: ui podczas bossa_75
+  - first:
+      213: -1161704578206223231
+    second: ui podczas bossa_76
+  - first:
+      213: -4093175839932692823
+    second: ui podczas bossa_77
+  - first:
+      213: -8679414321758929390
+    second: ui podczas bossa_78
+  - first:
+      213: -4752683769173216624
+    second: ui podczas bossa_79
+  - first:
+      213: -1644199548361578312
+    second: ui podczas bossa_80
+  - first:
+      213: 6942491982017359956
+    second: ui podczas bossa_81
+  - first:
+      213: -5143992838755352080
+    second: ui podczas bossa_82
+  - first:
+      213: -254127714390402198
+    second: ui podczas bossa_83
+  - first:
+      213: -8321920252085138527
+    second: ui podczas bossa_84
+  - first:
+      213: 3054406569877492489
+    second: ui podczas bossa_85
+  - first:
+      213: -5593777502520780903
+    second: ui podczas bossa_86
+  - first:
+      213: 3860138998304452034
+    second: ui podczas bossa_87
+  - first:
+      213: 7658065555588877463
+    second: ui podczas bossa_88
+  - first:
+      213: 2209193540461684536
+    second: ui podczas bossa_89
+  - first:
+      213: -6804633751832501398
+    second: ui podczas bossa_90
+  - first:
+      213: 6144661387900257679
+    second: ui podczas bossa_91
+  - first:
+      213: -7911008980791267532
+    second: ui podczas bossa_92
+  - first:
+      213: -7576402507682359753
+    second: ui podczas bossa_93
+  - first:
+      213: -852161253941511658
+    second: ui podczas bossa_94
+  - first:
+      213: -4790089341698847551
+    second: ui podczas bossa_95
+  - first:
+      213: 1480456373053801075
+    second: ui podczas bossa_96
+  - first:
+      213: 1122159013157411019
+    second: ui podczas bossa_97
+  - first:
+      213: 225618790468958174
+    second: ui podczas bossa_98
+  - first:
+      213: -4878400264976367505
+    second: ui podczas bossa_99
+  - first:
+      213: 3854546359473164743
+    second: ui podczas bossa_100
+  - first:
+      213: -4975286907080180779
+    second: ui podczas bossa_101
+  - first:
+      213: 3956890930019638833
+    second: ui podczas bossa_102
+  - first:
+      213: -7223497749026647367
+    second: ui podczas bossa_103
+  - first:
+      213: 2889991054840627090
+    second: ui podczas bossa_104
+  - first:
+      213: -65376938896312550
+    second: ui podczas bossa_105
+  - first:
+      213: -7292604783496700240
+    second: ui podczas bossa_106
+  - first:
+      213: -7716441161920382247
+    second: ui podczas bossa_107
+  - first:
+      213: -4092234593262360727
+    second: ui podczas bossa_108
+  - first:
+      213: 509569483348812850
+    second: ui podczas bossa_109
+  - first:
+      213: 2270977774153743522
+    second: ui podczas bossa_110
+  - first:
+      213: -2653248769431417419
+    second: ui podczas bossa_111
+  - first:
+      213: 9017232394195442295
+    second: ui podczas bossa_112
+  - first:
+      213: -3417709996706516439
+    second: ui podczas bossa_113
+  - first:
+      213: 4938988825219902993
+    second: ui podczas bossa_114
+  - first:
+      213: -6234366737054403854
+    second: ui podczas bossa_115
+  - first:
+      213: -4054854769210808204
+    second: ui podczas bossa_116
+  - first:
+      213: 306126547843005294
+    second: ui podczas bossa_117
+  - first:
+      213: -8753178077823794181
+    second: ui podczas bossa_118
+  - first:
+      213: -506324388689662459
+    second: ui podczas bossa_119
+  - first:
+      213: -4828783592798708946
+    second: ui podczas bossa_120
+  - first:
+      213: 2474805767806550234
+    second: ui podczas bossa_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+=======
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> d1e3fdade56db6b356a45b1a09272d0731e14e8f
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui podczas bossa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 1920
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c949be60ebc172aa0800000000000000
+      internalID: -6185943960684620644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 765
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5888a688b0c0aa0800000000000000
+      internalID: -6193562707010484739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 802
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0587f39c697c66620800000000000000
+      internalID: 2767118471501150288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 802
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48eb5b82a09a35a0800000000000000
+      internalID: -6540756481005066164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_4
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 814
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffb9ce3bd90e0e30800000000000000
+      internalID: 4471522317281378303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_5
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 813
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9585e7feea52eee0800000000000000
+      internalID: -1233323365538364004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_6
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 808
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfc1c4e938292470800000000000000
+      internalID: 8370265611560931264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 794
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c120b306019e27470800000000000000
+      internalID: 8391025312287883804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_8
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 799
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca5caac38735f610800000000000000
+      internalID: 1654289477309061835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_9
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 800
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa52798fc06f9d220800000000000000
+      internalID: 2511308802806457770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_10
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 799
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c355ea8b85acc5be0800000000000000
+      internalID: -1487091294534740676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_11
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 801
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e941ebdaff3c0b0800000000000000
+      internalID: -5709438780892209633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_12
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 795
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf62c0b391a99f20800000000000000
+      internalID: 3429950246917140414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_13
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 785
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ae151374edfb4a0800000000000000
+      internalID: -6575292533586138556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_14
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 780
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb2b4c0879eb78d0800000000000000
+      internalID: -2847425637570106418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_15
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 763
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcb898996b2e7b20800000000000000
+      internalID: 3133990123228151000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_16
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 775
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22510e31655b23550800000000000000
+      internalID: 6139168623364674850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_17
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 791
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444d1581bf13994e0800000000000000
+      internalID: -1974492007110683580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_18
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 780
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91e6725947dfa950800000000000000
+      internalID: 6462620700216058268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 762
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a6405d3a7727d00800000000000000
+      internalID: 968968415375288984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_20
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 771
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37dee680a37b6d20800000000000000
+      internalID: 3272836687510558522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_21
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 774
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d691b39e65448b840800000000000000
+      internalID: 5240013306516412781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_22
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 772
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4242ce33af97510800000000000000
+      internalID: 1547543047890543791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_23
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 759
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84347450bbeca680800000000000000
+      internalID: -8742353634069302131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_24
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 764
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b7024b272dbe570800000000000000
+      internalID: 8497116512054705044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_25
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 747
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305e417a5177ae0800000000000000
+      internalID: -1551747739251571914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_26
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 708
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86141a960e17f8060800000000000000
+      internalID: 6957905157969494376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_27
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 772
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c76b2daab07293c0800000000000000
+      internalID: -4354293942642317376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_28
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 756
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad59314adec94be70800000000000000
+      internalID: 9130094889060767194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_29
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 762
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d271d19626e661490800000000000000
+      internalID: -7775906337659218131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_30
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 747
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e6282f0ea7d8b10800000000000000
+      internalID: 1985378117300153894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_31
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 766
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bd9eb56799ba2e0800000000000000
+      internalID: -2113426866493072540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_32
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 733
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6802868d279705740800000000000000
+      internalID: 5138740708993671302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_33
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 756
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ed9025b257b19f0800000000000000
+      internalID: -496674504973885928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_34
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 748
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe1e5abfffc1c0b0800000000000000
+      internalID: -5710054155278737669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_35
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 724
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac4802a801ae1600800000000000000
+      internalID: 440966871979150506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 740
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933ed65597b1b6570800000000000000
+      internalID: 8460886532883866425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_37
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 522
+        width: 172
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e82921bc942a2c00800000000000000
+      internalID: 876553332882745570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_38
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 727
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a359eac3e13d404e0800000000000000
+      internalID: -2016254606334585542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_39
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 740
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a6a8e0535da8d40800000000000000
+      internalID: 5587512711560456862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_40
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 747
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f9eb684cbd7dad0800000000000000
+      internalID: -2677429816327757960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 724
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419a5d209334d9320800000000000000
+      internalID: 2566281274810804500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_42
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 631
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff78c7f1be5e0390800000000000000
+      internalID: -7850232982000861187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_43
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 730
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144e13604d31bd780800000000000000
+      internalID: -8657304057331719103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_44
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 722
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63317f1d38f48ea60800000000000000
+      internalID: 7703494590199173942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_45
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 714
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f6f49a336f3c4b0800000000000000
+      internalID: -5421218824679624816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_46
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 720
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ed787a3eae4f270800000000000000
+      internalID: 8283503878130359950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_47
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 567
+        width: 86
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fcd0cf9d4a9aa50800000000000000
+      internalID: 6532933990621237090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_48
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 708
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07e6e232f91aa1e0800000000000000
+      internalID: -2185906141108181237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_49
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 708
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44d56b74691036a0800000000000000
+      internalID: -6471644745173707699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_50
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 687
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f4ab36e8690a60800000000000000
+      internalID: 7640753580863189514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_51
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 704
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe3fe15822b09bc0800000000000000
+      internalID: -3778324201120776463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_52
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 684
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9e128356974dd70800000000000000
+      internalID: 9067005425444055481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_53
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 674
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ccb5a6c7d792790800000000000000
+      internalID: -7554368926623478745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_54
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 681
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfde70c1ec8647e0800000000000000
+      internalID: -1781581701353381944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_55
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 685
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c825cb2904bd4b0800000000000000
+      internalID: -5414663128013960039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_56
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 658
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca94788ef1e157960800000000000000
+      internalID: 7599013068651579820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_57
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 665
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40953f9bb4db35590800000000000000
+      internalID: -7686592006051374844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_58
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 668
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936729115d5f8aaf0800000000000000
+      internalID: -384787472668527047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_59
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 644
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bbd662140e28cf0800000000000000
+      internalID: -251392058757104885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_60
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 651
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295f569f2594e7070800000000000000
+      internalID: 8105997000033826194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_61
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 613
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebc3ae3b74bc6590800000000000000
+      internalID: -7679564823148639253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_62
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 624
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b36b236873787b0800000000000000
+      internalID: -5222144193396851816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_63
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 618
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2123bf940e1051b30800000000000000
+      internalID: 4257311085574173202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_64
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 617
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d95afe4dd81c4c0800000000000000
+      internalID: -4268975026077328070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_65
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 608
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f52033d3b08a0650800000000000000
+      internalID: 6199909346859558391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_66
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 542
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b06d8662dd1a4230800000000000000
+      internalID: 3623741639673864369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_67
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 611
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e21725b54c4db0c0800000000000000
+      internalID: -4558403385553382683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_68
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 561
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042097c7e9549f030800000000000000
+      internalID: 3528928330016948800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_69
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 555
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecfc5507c41aafe0800000000000000
+      internalID: -1177105507582935838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_70
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 524
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96af0a51fcdf7dd0800000000000000
+      internalID: -2486025540129020257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_71
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 547
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706eb732745dcbc40800000000000000
+      internalID: 5529528944018843143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_72
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 530
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88165185dc62b0fc0800000000000000
+      internalID: -3527683219726704248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_73
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 505
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a8c5be219dc50e0800000000000000
+      internalID: -2279708636074964326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_74
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 500
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13be4b17cb2c3cd0800000000000000
+      internalID: -2577136752606137573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_75
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 500
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e081ec896154cd670800000000000000
+      internalID: 8564796554707081230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_76
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 510
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184b21257dbc0efe0800000000000000
+      internalID: -1161704578206223231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_77
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 506
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6c999924e1237c0800000000000000
+      internalID: -4093175839932692823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_78
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 505
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21efe1de8a68c8780800000000000000
+      internalID: -8679414321758929390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_79
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 497
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0927aa0fa431b0eb0800000000000000
+      internalID: -4752683769173216624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_80
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 470
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8ec0cd831ae29e0800000000000000
+      internalID: -1644199548361578312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_81
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 452
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450742cbcafa85060800000000000000
+      internalID: 6942491982017359956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_82
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 424
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f185d664cddc98b0800000000000000
+      internalID: -5143992838755352080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 341
+        width: 131
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b9d20b038297cf0800000000000000
+      internalID: -254127714390402198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_84
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 427
+        width: 74
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab06554f99928c80800000000000000
+      internalID: -8321920252085138527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_85
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 484
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903da25a79e636a20800000000000000
+      internalID: 3054406569877492489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_86
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 457
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9975da1aff8ee52b0800000000000000
+      internalID: -5593777502520780903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_87
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 353
+        width: 73
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cda19197f7f19530800000000000000
+      internalID: 3860138998304452034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_88
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 465
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c87837c0ae64a60800000000000000
+      internalID: 7658065555588877463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_89
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 471
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8376e4bf1d1a8ae10800000000000000
+      internalID: 2209193540461684536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_90
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 460
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63e36bb7a51191a0800000000000000
+      internalID: -6804633751832501398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_91
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 436
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f858adaf9f8364550800000000000000
+      internalID: 6144661387900257679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_92
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 444
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fe20d0f33763290800000000000000
+      internalID: -7911008980791267532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_93
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 428
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736d63e8f063bd690800000000000000
+      internalID: -7576402507682359753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_94
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 444
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af67fbad38c24f0800000000000000
+      internalID: -852161253941511658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_95
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 339
+        width: 41
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccc7a96f1f268db0800000000000000
+      internalID: -4790089341698847551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_96
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 413
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372c55d3a33ab8410800000000000000
+      internalID: 1480456373053801075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_97
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 252
+        width: 78
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc810c05da5b29f00800000000000000
+      internalID: 1122159013157411019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_98
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 418
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed73e84381f812300800000000000000
+      internalID: 225618790468958174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_99
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 425
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6089ed4ec07c4cb0800000000000000
+      internalID: -4878400264976367505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_100
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 427
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c15caedd791e7530800000000000000
+      internalID: 3854546359473164743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_101
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 411
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db75df0bea34fab0800000000000000
+      internalID: -4975286907080180779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_102
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 325
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e19ca1653b9e630800000000000000
+      internalID: 3956890930019638833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_103
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 352
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2de69a11bf0cb90800000000000000
+      internalID: -7223497749026647367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_104
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 326
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ff4d37d8f4b1820800000000000000
+      internalID: 2889991054840627090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_105
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 351
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17359c350cb71ff0800000000000000
+      internalID: -65376938896312550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_106
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 326
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be5d5856967bca90800000000000000
+      internalID: -7292604783496700240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_107
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 341
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da788d85a1b9e490800000000000000
+      internalID: -7716441161920382247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967280ba1567537c0800000000000000
+      internalID: -4092234593262360727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_109
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 319
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234a26bceba521700800000000000000
+      internalID: 509569483348812850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_110
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 308
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acbd31e042248f10800000000000000
+      internalID: 2270977774153743522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_111
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 307
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd4c4d3d44cd2bd0800000000000000
+      internalID: -2653248769431417419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_112
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 299
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a1a215615a32d70800000000000000
+      internalID: 9017232394195442295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_113
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 314
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922b105addad190d0800000000000000
+      internalID: -3417709996706516439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_114
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 307
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e2bdc2b20da8440800000000000000
+      internalID: 4938988825219902993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_115
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 295
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f27c56db741b79a0800000000000000
+      internalID: -6234366737054403854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_116
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 308
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478246922134ab7c0800000000000000
+      internalID: -4054854769210808204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_117
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 296
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bbf7c29749f3400800000000000000
+      internalID: 306126547843005294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_118
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 313
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3839f1ae6768680800000000000000
+      internalID: -8753178077823794181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_119
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 281
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e290fa6ac29f8f0800000000000000
+      internalID: -506324388689662459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_120
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b9ff508e6bcfcb0800000000000000
+      internalID: -4828783592798708946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui podczas bossa_121
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 297
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad08236dbb6485220800000000000000
+      internalID: 2474805767806550234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
