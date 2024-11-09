@@ -17,4 +17,20 @@ public class EnemyAi : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
         }
     }
+
+    public void attacked(int type)
+    {
+        if (type == 0)
+        {
+            speed += 1;
+        }
+        else if (type == 1)
+        {
+            Destroy(gameObject);
+        }
+        else 
+        {
+            Debug.Log("other");
+        }
+    }
 }
