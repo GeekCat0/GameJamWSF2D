@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wiadro_item_0: 7038432550091581600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

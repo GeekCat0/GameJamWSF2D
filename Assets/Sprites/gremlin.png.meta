@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gremlin_0: 7405187000967407978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
