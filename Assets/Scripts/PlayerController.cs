@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask enemyLayers;
 
     public GameObject[] hearts;
+    public GameObject[] items;
 
     void Start()
     {
@@ -84,7 +85,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (i == equiped) { weapon[i].SetActive(true); held = i; } else { weapon[i].SetActive(false); }
             }
-            if (Input.GetButtonDown("Fire1") && equiped <= 2) { mele(); }
+            if (Input.GetButtonDown("Fire1") && equiped <= 2) { mele(weapon[equiped]); }
             else { shoot(); }
         } else { for (int i = 0; i < inventory.Length; i++) { weapon[i].SetActive(false); } }
         if (health <= 0) 
@@ -99,6 +100,11 @@ public class PlayerController : MonoBehaviour
         for (int i = 0; i < hearts.Length; i++) 
         {
             if (health >= i + 1) { hearts[i].SetActive(true); } else { hearts[i].SetActive(false); }
+        }
+
+        for (int i = 0; i < items.Length; i++)
+        {
+            items[i].SetActive(inventory[i]);
         }
 
     }
@@ -120,7 +126,7 @@ public class PlayerController : MonoBehaviour
         else { shootingDelay++; }
     }
 
-    void mele()
+    void mele(GameObject point)
     {
         if (weapon[held].GetComponentInChildren<Animator>() != null)
         {
@@ -128,7 +134,7 @@ public class PlayerController : MonoBehaviour
         }
         //animator.SetTrigger("attack");
 
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(point.transform.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies) 
         {
