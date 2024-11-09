@@ -23,6 +23,10 @@ public class PlayerController : MonoBehaviour
     public bool[] inventory = { false, false, false, false, false, false, false };
     public int equiped;
 
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -30,8 +34,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        speedX = Input.GetAxisRaw("Horizontal") * (moveSpeed * 1000 * Time.deltaTime);
-        speedY = Input.GetAxisRaw("Vertical") * (moveSpeed * 1000 * Time.deltaTime);
+        speedX = Input.GetAxisRaw("Horizontal") * moveSpeed;
+        speedY = Input.GetAxisRaw("Vertical") * moveSpeed;
         body.linearVelocity = new Vector2 (speedX, speedY);
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -78,6 +82,21 @@ public class PlayerController : MonoBehaviour
     void mele()
     {
         animator.SetTrigger("attack");
-    }
 
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies) 
+        {
+            Debug.Log(enemy.name);
+        }
+    }
+    /*
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    */
 }
