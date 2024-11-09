@@ -34,6 +34,7 @@ public class EnemyAi : MonoBehaviour
         }
         else if (type == weakness)
         {
+            FindAnyObjectByType<GameManager>().enemiesAlive--;
             Destroy(gameObject);
         }
         else 

@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422136258213161176, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4422136258213161176, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -51,6 +51,46 @@ PrefabInstance:
     - target: {fileID: 4422136258213161176, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744627745659587376, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 8.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744627745659587376, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 11.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744627745659587376, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 8.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744627745659587376, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 11.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802845126939342253, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_Size.x
+      value: 8.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802845126939342253, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_Size.y
+      value: 11.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802845126939342253, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6026398970516977593, guid: e3d281ff4f9fe634facf211779f4d361, type: 3}
+    - target: {fileID: 7802845126939342253, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478002302471696680, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: buff
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478002302471696680, guid: e5a6dbd86a2a4854a97951261abae53b, type: 3}
+      propertyPath: weakness
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

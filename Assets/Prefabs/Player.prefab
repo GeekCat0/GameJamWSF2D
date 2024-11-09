@@ -901,7 +901,7 @@ MonoBehaviour:
   - {fileID: 2852062831859445724}
   animator: {fileID: 6104907201134505226}
   cam: {fileID: 8126373106190959676}
-  inventory: 000000000000
+  inventory: 010101010101
   equiped: 0
   attackPoint: {fileID: 4138887785346762336}
   attackRange: 0.6

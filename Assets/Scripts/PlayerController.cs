@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
-        if (shootingDelay >= 600)
+        if (shootingDelay >= 100)
         {
             if (Input.GetButtonDown("Fire1"))
             {
@@ -82,7 +82,8 @@ public class PlayerController : MonoBehaviour
 
     void mele()
     {
-        animator.SetTrigger("attack");
+        weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
+        //animator.SetTrigger("attack");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
