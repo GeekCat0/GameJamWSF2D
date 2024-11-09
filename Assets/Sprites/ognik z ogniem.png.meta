@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ognik z ogniem_0: -2980103526790123390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
