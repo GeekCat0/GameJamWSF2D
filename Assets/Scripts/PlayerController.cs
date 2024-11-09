@@ -69,11 +69,11 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
-        weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
         if (shootingDelay >= 100)
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
                 gun[gunEquiped].Fire();
                 shootingDelay = 0;
             }
