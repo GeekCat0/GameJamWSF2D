@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
     public bool[] inventory = { false, false, false, false, false, false, false };
     public int equiped;
+    int held = 0;
 
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -58,7 +59,7 @@ public class PlayerController : MonoBehaviour
         {
             for (int i = 0; i < inventory.Length; i++)
             {
-                if (i == equiped) { weapon[i].SetActive(true); } else { weapon[i].SetActive(false); }
+                if (i == equiped) { weapon[i].SetActive(true); held = i; } else { weapon[i].SetActive(false); }
             }
             if (Input.GetButtonDown("Fire1") && equiped <= 2) { mele(); }
             else { shoot(); }
@@ -87,7 +88,7 @@ public class PlayerController : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies) 
         {
-            Debug.Log(enemy.name);
+            enemy.GetComponent<EnemyAi>().attacked(held);
         }
     }
     /*
