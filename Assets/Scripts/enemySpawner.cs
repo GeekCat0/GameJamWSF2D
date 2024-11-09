@@ -8,9 +8,9 @@ public class enemySpawner : MonoBehaviour
 
     void Update()
     {
-        if (FindAnyObjectByType<GameManager>().enemiesAlive <= 9)
+        if (FindAnyObjectByType<GameManager>().enemiesAlive <= 18)
         {
-            if (spawnTimer >= 5000)
+            if (spawnTimer >= 3000)
             {
                 spawnTimer = 0;
                 choice = Random.Range(0, enemies.Length);
