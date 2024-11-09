@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
         Vector2 lookDirection = mousePos - body.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+
         
 
         if (Input.GetKeyDown(KeyCode.Alpha1)){ equiped = 0; }
@@ -54,6 +55,27 @@ public class PlayerController : MonoBehaviour
         
 
         weapon[equiped].transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+        Vector2 scale = weapon[equiped].transform.localScale;
+        if (angle > -90 && angle < 90)
+        {
+            if (equiped > 2)
+            {
+                weapon[equiped].GetComponentInChildren<SpriteRenderer>().flipY = false;
+            }
+            else 
+            {
+                Debug.Log("plus");
+                scale.y = -1;
+            }
+        }
+        else if (equiped > 2) { weapon[equiped].GetComponentInChildren<SpriteRenderer>().flipY = true; }
+        else 
+        {
+            Debug.Log("minus");
+            scale.y = 1;
+        }
+
+        weapon[equiped].transform.localScale = scale;
 
         if (inventory[equiped])
         {
