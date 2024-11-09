@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public Animator steps;
     public float moveSpeed;
     float speedX, speedY;
     Rigidbody2D body;
@@ -42,6 +42,11 @@ public class PlayerController : MonoBehaviour
         speedX = Input.GetAxisRaw("Horizontal") * moveSpeed;
         speedY = Input.GetAxisRaw("Vertical") * moveSpeed;
         body.linearVelocity = new Vector2 (speedX, speedY);
+
+        if (speedX == 0 && speedY == 0)
+        {
+            steps.enabled = false;
+        }else { steps.enabled = true; }
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 

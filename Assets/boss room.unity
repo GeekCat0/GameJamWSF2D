@@ -1465,9 +1465,9 @@ GameObject:
   m_Component:
   - component: {fileID: 434499420}
   - component: {fileID: 434499419}
-  - component: {fileID: 434499418}
   - component: {fileID: 434499417}
   - component: {fileID: 434499421}
+  - component: {fileID: 434499422}
   m_Layer: 0
   m_Name: boss
   m_TagString: Untagged
@@ -1497,20 +1497,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &434499418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434499415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d430f4691358c684fbe4a819ec06647b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 2036659181}
-  speed: 5
 --- !u!212 &434499419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1597,7 +1583,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -1627,6 +1613,24 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 14.18, y: 17.59}
   m_EdgeRadius: 0
+--- !u!114 &434499422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434499415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25c0053b6c51604dac5652f3e337dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  range: 1000000
+  weakness: 8
+  buff: 0
+  weakPage: 0
+  buffPage: 0
 --- !u!1001 &676427697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6365,11 +6369,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2036659181 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4270024122485552948, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
-  m_PrefabInstance: {fileID: 1777868756}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083448302
 GameObject:
   m_ObjectHideFlags: 0
