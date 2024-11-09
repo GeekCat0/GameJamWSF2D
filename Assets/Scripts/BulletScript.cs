@@ -7,7 +7,6 @@ public class BulletScript : MonoBehaviour
     { 
         if (col.CompareTag("Enemy"))
         {
-            Debug.Log("hit");
             Destroy(gameObject);
         } 
     }
@@ -17,7 +16,6 @@ public class BulletScript : MonoBehaviour
         timeAlive += 1 * Time.deltaTime;
         if (timeAlive > 1)
         {
-            Debug.Log("life ended");
             Destroy(gameObject);
         }
     }
