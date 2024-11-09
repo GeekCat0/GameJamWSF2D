@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     public GameObject[] weapon;
     public shootingWeapon[] gun;
     int gunEquiped = 0;
-    int weaponEquiped = 0;
     public Animator animator;
 
     Vector2 mousePos;
@@ -23,6 +22,11 @@ public class PlayerController : MonoBehaviour
 
     public bool[] inventory = { false, false, false, false, false, false, false };
     public int equiped;
+    int held = 0;
+
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
 
     void Start()
     {
@@ -39,21 +43,23 @@ public class PlayerController : MonoBehaviour
 
         Vector2 lookDirection = mousePos - body.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
-        weapon[weaponEquiped].transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+        
 
         if (Input.GetKeyDown(KeyCode.Alpha1)){ equiped = 0; }
         else if (Input.GetKeyDown(KeyCode.Alpha2)){ equiped = 1; }
         else if (Input.GetKeyDown(KeyCode.Alpha3)){ equiped = 2; }
-        else if (Input.GetKeyDown(KeyCode.Alpha4)){ equiped = 3; }
-        else if (Input.GetKeyDown(KeyCode.Alpha5)){ equiped = 4; }
-        else if (Input.GetKeyDown(KeyCode.Alpha6)){ equiped = 5; }
+        else if (Input.GetKeyDown(KeyCode.Alpha4)){ equiped = 3; gunEquiped = 0; }
+        else if (Input.GetKeyDown(KeyCode.Alpha5)){ equiped = 4; gunEquiped = 1; }
+        else if (Input.GetKeyDown(KeyCode.Alpha6)){ equiped = 5; gunEquiped = 2; }
+        
 
+        weapon[equiped].transform.rotation = Quaternion.Euler(Vector3.forward * angle);
 
         if (inventory[equiped])
         {
             for (int i = 0; i < inventory.Length; i++)
             {
-                if (i == equiped) { weapon[i].SetActive(true); } else { weapon[i].SetActive(false); }
+                if (i == equiped) { weapon[i].SetActive(true); held = i; } else { weapon[i].SetActive(false); }
             }
             if (Input.GetButtonDown("Fire1") && equiped <= 2) { mele(); }
             else { shoot(); }
@@ -77,6 +83,21 @@ public class PlayerController : MonoBehaviour
     void mele()
     {
         animator.SetTrigger("attack");
-    }
 
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies) 
+        {
+            enemy.GetComponent<EnemyAi>().attacked(held);
+        }
+    }
+    /*
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    */
 }
