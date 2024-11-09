@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2b2ca53dd1b59ec43bc9f85df539dc44
+guid: adfb617e23375664abac4b3afd8eec35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2752777718952856394
-    second: diablik_0
+      213: -5782521184205631276
+    second: zombie_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: diablik_0
+      name: zombie_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 1054
-        height: 1917
+        x: 50
+        y: 8
+        width: 896
+        height: 1889
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b4743cdf3b2cc9d0800000000000000
-      internalID: -2752777718952856394
+      spriteID: 4d0904dbe9b50cfa0800000000000000
+      internalID: -5782521184205631276
       vertices: []
       indices: 
       edges: []
