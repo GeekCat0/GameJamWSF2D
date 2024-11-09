@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: d0ea0d5a0e6dd4f3faefed8489b14ec6
+guid: e3fb49648b892a74484613596f39249c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3726306262918629138
-    second: Untitled_Artwork 11_0
-  - first:
-      213: 232191469536450761
-    second: Untitled_Artwork 11_1
-  - first:
-      213: 671478668877053859
-    second: Untitled_Artwork 11_2
+      213: -1150273076403704467
+    second: ognik bez ognia_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 11_0
+      name: ognik bez ognia_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1258
-        width: 512
-        height: 336
+        x: 211
+        y: 152
+        width: 751
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,52 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee8fb6a5230894cc0800000000000000
-      internalID: -3726306262918629138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 11_1
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 639
-        width: 177
-        height: 515
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c8989d49e8e83300800000000000000
-      internalID: 232191469536450761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 11_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 69
-        width: 512
-        height: 516
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3af3bacaa42915900800000000000000
-      internalID: 671478668877053859
+      spriteID: d6de24e3bb86900f0800000000000000
+      internalID: -1150273076403704467
       vertices: []
       indices: 
       edges: []
@@ -210,10 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Untitled_Artwork 11_0: -3726306262918629138
-      Untitled_Artwork 11_1: 232191469536450761
-      Untitled_Artwork 11_2: 671478668877053859
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

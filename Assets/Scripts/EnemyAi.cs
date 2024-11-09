@@ -2,11 +2,19 @@ using UnityEngine;
 
 public class EnemyAi : MonoBehaviour
 {
-    public GameObject player;
+    GameObject player;
     public float speed;
 
     private float distance;
     public float range;
+
+    public int weakness;
+    public int buff;
+
+    private void Start()
+    {
+        player = FindAnyObjectByType<PlayerController>().gameObject;
+    }
 
     void Update()
     {
@@ -20,11 +28,11 @@ public class EnemyAi : MonoBehaviour
 
     public void attacked(int type)
     {
-        if (type == 0)
+        if (type == buff)
         {
             speed += 1;
         }
-        else if (type == 1)
+        else if (type == weakness)
         {
             Destroy(gameObject);
         }
