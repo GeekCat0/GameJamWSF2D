@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     float speedX, speedY;
     Rigidbody2D body;
-
+    public int health = 3;
 
     public GameObject[] weapon;
     public shootingWeapon[] gun;
@@ -69,11 +69,14 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
-        weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
         if (shootingDelay >= 100)
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                if (weapon[held].GetComponentInChildren<Animator>() != null)
+                {
+                    weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
+                }
                 gun[gunEquiped].Fire();
                 shootingDelay = 0;
             }
@@ -83,7 +86,10 @@ public class PlayerController : MonoBehaviour
 
     void mele()
     {
-        weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
+        if (weapon[held].GetComponentInChildren<Animator>() != null)
+        {
+            weapon[held].GetComponentInChildren<Animator>().SetTrigger("attack");
+        }
         //animator.SetTrigger("attack");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
