@@ -11,6 +11,9 @@ public class EnemyAi : MonoBehaviour
     public int weakness;
     public int buff;
 
+    public int weakPage = 0;
+    public int buffPage = 0;
+
     private void Start()
     {
         player = FindAnyObjectByType<PlayerController>().gameObject;
@@ -31,10 +34,12 @@ public class EnemyAi : MonoBehaviour
         if (type == buff)
         {
             speed += 1;
+            FindAnyObjectByType<GameManager>().pagesCollected[buffPage] = true;
         }
         else if (type == weakness)
         {
             FindAnyObjectByType<GameManager>().enemiesAlive--;
+            FindAnyObjectByType<GameManager>().pagesCollected[weakPage] = true;
             Destroy(gameObject);
         }
         else 
