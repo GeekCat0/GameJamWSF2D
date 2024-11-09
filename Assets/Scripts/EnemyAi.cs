@@ -42,4 +42,13 @@ public class EnemyAi : MonoBehaviour
             Debug.Log("other");
         }
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player")) 
+        {
+            FindFirstObjectByType<PlayerController>().health -= 1;
+            Destroy(gameObject);
+        }
+    }
 }
