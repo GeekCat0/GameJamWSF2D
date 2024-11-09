@@ -110,7 +110,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 558bd23004739fe5f4a85cca0bdbbcf701ce52c4
   - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
@@ -124,7 +127,10 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
 >>>>>>> d1e3fdade56db6b356a45b1a09272d0731e14e8f
+=======
+>>>>>>> 558bd23004739fe5f4a85cca0bdbbcf701ce52c4
   spriteSheet:
     serializedVersion: 2
     sprites:
