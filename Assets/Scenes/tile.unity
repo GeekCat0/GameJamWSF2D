@@ -333,8 +333,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8126373106190959676, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: far clip plane
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126373106190959676, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: orthographic size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8293040316309788291, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: m_SortingOrder
