@@ -264,13 +264,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 697887394555566996, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 10.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 697887394555566996, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 19.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2709208128193390842, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: moveSpeed
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3874551089931196971, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5534716432263066409, guid: b81959d7c8c587c48a1ced2f2779a1c1, type: 3}
+    - target: {fileID: 3874551089931196971, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874551089931196971, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874551089931196971, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4126339810901212515, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: m_SortingOrder
@@ -286,10 +306,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5974747068475880613, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.20000002
       objectReference: {fileID: 0}
     - target: {fileID: 5974747068475880613, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5974747068475880613, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5974747068475880613, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
@@ -338,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8126373106190959676, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: orthographic size
-      value: 6
+      value: 8.15
       objectReference: {fileID: 0}
     - target: {fileID: 8293040316309788291, guid: d66c99f986e3f4a4b8106425a2547152, type: 3}
       propertyPath: m_SortingOrder
