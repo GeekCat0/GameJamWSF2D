@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 665871d110241a74caba00fea260eca8
+guid: 68e800125a86b9041abae8ca29714f26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5920630397866994662
-    second: Untitled_Artwork-4 3_0
+      213: -6740187930604055140
+    second: boss move 2_0
+  - first:
+      213: -2388567767800411434
+    second: boss move 2_1
+  - first:
+      213: -983330233697541438
+    second: boss move 2_2
+  - first:
+      213: 3617458096435653441
+    second: boss move 2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork-4 3_0
+      name: boss move 2_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 337
-        width: 799
-        height: 1196
+        x: 162
+        y: 218
+        width: 1649
+        height: 1691
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ebed3f5afd4a2250800000000000000
-      internalID: 5920630397866994662
+      spriteID: c9558f4c9ca0672a0800000000000000
+      internalID: -6740187930604055140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss move 2_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 530
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da0f46354a1aded0800000000000000
+      internalID: -2388567767800411434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss move 2_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 174
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c26e83cc528a52f0800000000000000
+      internalID: -983330233697541438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss move 2_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 150
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b68ebf8fac33230800000000000000
+      internalID: 3617458096435653441
       vertices: []
       indices: 
       edges: []
@@ -160,8 +235,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Untitled_Artwork-4 3_0: 5920630397866994662
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

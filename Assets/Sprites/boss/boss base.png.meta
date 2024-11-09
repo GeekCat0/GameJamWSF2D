@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 665871d110241a74caba00fea260eca8
+guid: 0029a7185920d354d879015cf90228b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5920630397866994662
-    second: Untitled_Artwork-4 3_0
+      213: 8286361321612998724
+    second: boss base_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork-4 3_0
+      name: boss base_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 337
-        width: 799
-        height: 1196
+        x: 242
+        y: 150
+        width: 1418
+        height: 1759
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ebed3f5afd4a2250800000000000000
-      internalID: 5920630397866994662
+      spriteID: 448774f08b11ff270800000000000000
+      internalID: 8286361321612998724
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Untitled_Artwork-4 3_0: 5920630397866994662
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
