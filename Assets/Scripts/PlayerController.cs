@@ -4,11 +4,15 @@ using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
+    bool paused = false;
+    public float cooldown = 0;
+    private float step = 3;
     public Animator steps;
     public float moveSpeed;
     float speedX, speedY;
     Rigidbody2D body;
     public int health = 3;
+    public GameObject deathscreen;
 
     public GameObject[] weapon;
     public shootingWeapon[] gun;
@@ -32,6 +36,8 @@ public class PlayerController : MonoBehaviour
     public GameObject[] hearts;
     public GameObject[] items;
 
+    public GameObject journal;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -39,6 +45,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetButtonDown("Fire1") && paused) { paused = false; deathscreen.SetActive(false); }
+        moveSpeed = 6.5f;
+        cooldown += (2 * Time.deltaTime);
+        if ((cooldown > 5 && Input.GetKeyDown("space")))
+        {
+            step = 0;
+            cooldown = 0;
+            moveSpeed = 15;
+        }
+        if (step < 1)
+        {
+            moveSpeed = 15;
+            step += (1 * Time.deltaTime);
+        }
+        steps.speed = moveSpeed;
         speedX = Input.GetAxisRaw("Horizontal") * moveSpeed;
         speedY = Input.GetAxisRaw("Vertical") * moveSpeed;
         body.linearVelocity = new Vector2 (speedX, speedY);
@@ -48,12 +69,19 @@ public class PlayerController : MonoBehaviour
             steps.enabled = false;
         }else { steps.enabled = true; }
 
+
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector2 lookDirection = mousePos - body.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
 
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            journal.SetActive(!journal.activeSelf);
+        }
+        if (journal.activeSelf) { Time.timeScale = 0.0f; }
+        else if (paused) { Time.timeScale = 0.0f; deathscreen.SetActive(true); }
+        else { Time.timeScale = 1.0f; }
 
         if (Input.GetKeyDown(KeyCode.Alpha1)){ equiped = 0; }
         else if (Input.GetKeyDown(KeyCode.Alpha2)){ equiped = 1; }
@@ -96,6 +124,10 @@ public class PlayerController : MonoBehaviour
         if (health <= 0) 
         {
             Debug.Log("Died");
+            paused = true;
+            EnemyAi[] enemies = GameObject.FindObjectsOfType<EnemyAi>();
+            FindAnyObjectByType<GameManager>().enemiesAlive = 0;
+            foreach (EnemyAi go in enemies) { Destroy(go.gameObject); }
             health = 3;
             for (int i = 0; i < inventory.Length; i++) { inventory[i] = false; }
             gameObject.transform.position = new Vector3(0, 0, 0);
@@ -146,13 +178,4 @@ public class PlayerController : MonoBehaviour
             enemy.GetComponent<EnemyAi>().attacked(held);
         }
     }
-    /*
-    private void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null)
-            return;
-
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    }
-    */
 }

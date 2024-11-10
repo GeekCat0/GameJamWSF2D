@@ -1,12 +1,18 @@
 using UnityEngine;
 
-public class EnemyAi : MonoBehaviour
+public class BossAi : MonoBehaviour
 {
     GameObject player;
     public float speed;
+    public Rigidbody2D gun;
+    public float cooldown;
+    public GameObject bullet;
+
+    public Transform shootPoint;
 
     private float distance;
     public float range;
+    public float minDistance;
 
     public int weakness;
     public int buff;
@@ -23,11 +29,21 @@ public class EnemyAi : MonoBehaviour
 
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);        
+        distance = Vector2.Distance(transform.position, player.transform.position);
+        Vector2 lookDir = player.transform.position - gun.transform.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        gun.rotation = angle;
         
-        if (distance < range) 
+        if (distance < range && distance > minDistance) 
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        }
+        cooldown += (2 * Time.deltaTime);
+        if (cooldown > 5) 
+        {
+            cooldown = 0;
+            GameObject shot = Instantiate(bullet, shootPoint.position, shootPoint.rotation);
+            shot.GetComponent<Rigidbody2D>().AddForce(shootPoint.up * 3, ForceMode2D.Impulse);
         }
     }
 
@@ -35,7 +51,6 @@ public class EnemyAi : MonoBehaviour
     {
         if (type == buff)
         {
-            FindAnyObjectByType<GameManager>().pagesCollected[buffPage] = true;
             switch (typeOfBuff)
             {
                 case 0:
@@ -69,7 +84,7 @@ public class EnemyAi : MonoBehaviour
         if (col.CompareTag("Player")) 
             {
                 FindFirstObjectByType<PlayerController>().health -= 1;
-                Destroy(gameObject);
+
             }
         }
     }

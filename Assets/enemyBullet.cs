@@ -1,18 +1,17 @@
-using UnityEditor;
 using UnityEngine;
 
-public class BulletScript : MonoBehaviour
+public class enemyBullet : MonoBehaviour
 {
     public float lifeTime = 1;
     float timeAlive = 0;
     public int bulletType;
-    private void OnTriggerEnter2D(Collider2D col)
-    { 
-        if (col.CompareTag("Enemy"))
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
         {
-            col.GetComponent<EnemyAi>().attacked(bulletType);
+            FindFirstObjectByType<PlayerController>().health -= 1;
             Destroy(gameObject);
-        } 
+        }
     }
 
     private void Update()
