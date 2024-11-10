@@ -16,10 +16,14 @@ public class EnemyAi : MonoBehaviour
 
     public int typeOfBuff = 0;
 
+    public AudioSource dieSound;
+    
+
     private void Start()
     {
         player = FindAnyObjectByType<PlayerController>().gameObject;
-    }
+        dieSound = FindAnyObjectByType<GameManager>().dieSound;
+}
 
     void Update()
     {
@@ -29,8 +33,9 @@ public class EnemyAi : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
         }
-    }
 
+    }
+    
     public void attacked(int type)
     {
         if (type == buff)
@@ -54,6 +59,7 @@ public class EnemyAi : MonoBehaviour
         }
         else if (type == weakness)
             {
+                dieSound.Play();
                 FindAnyObjectByType<GameManager>().enemiesAlive--;
                 FindAnyObjectByType<GameManager>().pagesCollected[weakPage] = true;
                 Destroy(gameObject);
