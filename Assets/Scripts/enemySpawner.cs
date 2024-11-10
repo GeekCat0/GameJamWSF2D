@@ -10,7 +10,7 @@ public class enemySpawner : MonoBehaviour
     {
         if (FindAnyObjectByType<GameManager>().enemiesAlive <= FindAnyObjectByType<GameManager>().maxEnemies)
         {
-            if (spawnTimer >= 10)
+            if (spawnTimer >= 15)
             {
                 spawnTimer = 0;
                 choice = Random.Range(0, enemies.Length);

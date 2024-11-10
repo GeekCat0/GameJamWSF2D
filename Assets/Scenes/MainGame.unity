@@ -7845,6 +7845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIv2
       objectReference: {fileID: 0}
+    - target: {fileID: 2368738099699174798, guid: adf664a459317d14fb9bb98660bd6219, type: 3}
+      propertyPath: m_text
+      value: Vampire
+      objectReference: {fileID: 0}
     - target: {fileID: 2658984058761690079, guid: adf664a459317d14fb9bb98660bd6219, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 49.6
@@ -7947,7 +7951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434914099058353489, guid: adf664a459317d14fb9bb98660bd6219, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7717369446827705343, guid: adf664a459317d14fb9bb98660bd6219, type: 3}
       propertyPath: m_AnchoredPosition.x
