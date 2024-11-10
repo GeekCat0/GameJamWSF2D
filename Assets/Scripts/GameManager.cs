@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
     public bool[] pagesCollected = { false, false, false, false, false, false, false, false, false, false };
 
     public GameObject[] pages;
-    
+
+    public AudioSource dieSound;
 
     public int maxEnemies = 1;
     private float timer = 0;
