@@ -4,11 +4,19 @@ using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
-
+   
+   
+	public AudioSource audio;
+    public AudioClip clip;
+    bool paused = false;
+    public float cooldown = 0;
+    private float step = 3;
+    public Animator steps;
     public float moveSpeed;
     float speedX, speedY;
     Rigidbody2D body;
     public int health = 3;
+    public GameObject deathscreen;
 
     public GameObject[] weapon;
     public shootingWeapon[] gun;
@@ -32,6 +40,8 @@ public class PlayerController : MonoBehaviour
     public GameObject[] hearts;
     public GameObject[] items;
 
+    public GameObject journal;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -39,16 +49,43 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetButtonDown("Fire1") && paused) { paused = false; deathscreen.SetActive(false); }
+        moveSpeed = 6.5f;
+        cooldown += (2 * Time.deltaTime);
+        if ((cooldown > 5 && Input.GetKeyDown("space")))
+        {
+            step = 0;
+            cooldown = 0;
+            moveSpeed = 15;
+        }
+        if (step < 1)
+        {
+            moveSpeed = 15;
+            step += (1 * Time.deltaTime);
+        }
+        steps.speed = moveSpeed;
         speedX = Input.GetAxisRaw("Horizontal") * moveSpeed;
         speedY = Input.GetAxisRaw("Vertical") * moveSpeed;
         body.linearVelocity = new Vector2 (speedX, speedY);
+
+        if (speedX == 0 && speedY == 0)
+        {
+            steps.enabled = false;
+        }else { steps.enabled = true; }
+
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector2 lookDirection = mousePos - body.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
 
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            journal.SetActive(!journal.activeSelf);
+        }
+        if (journal.activeSelf) { Time.timeScale = 0.0f; }
+        else if (paused) { Time.timeScale = 0.0f; deathscreen.SetActive(true); }
+        else { Time.timeScale = 1.0f; }
 
         if (Input.GetKeyDown(KeyCode.Alpha1)){ equiped = 0; }
         else if (Input.GetKeyDown(KeyCode.Alpha2)){ equiped = 1; }
@@ -90,7 +127,12 @@ public class PlayerController : MonoBehaviour
         } else { for (int i = 0; i < inventory.Length; i++) { weapon[i].SetActive(false); } }
         if (health <= 0) 
         {
+            //audio.PlayOneShot(clip);
             Debug.Log("Died");
+            paused = true;
+            EnemyAi[] enemies = GameObject.FindObjectsOfType<EnemyAi>();
+            FindAnyObjectByType<GameManager>().enemiesAlive = 0;
+            foreach (EnemyAi go in enemies) { Destroy(go.gameObject); }
             health = 3;
             for (int i = 0; i < inventory.Length; i++) { inventory[i] = false; }
             gameObject.transform.position = new Vector3(0, 0, 0);
@@ -100,6 +142,7 @@ public class PlayerController : MonoBehaviour
         for (int i = 0; i < hearts.Length; i++) 
         {
             if (health >= i + 1) { hearts[i].SetActive(true); } else { hearts[i].SetActive(false); }
+            
         }
 
         for (int i = 0; i < items.Length; i++)
@@ -138,16 +181,8 @@ public class PlayerController : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies) 
         {
+            
             enemy.GetComponent<EnemyAi>().attacked(held);
         }
     }
-    /*
-    private void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null)
-            return;
-
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    }
-    */
 }

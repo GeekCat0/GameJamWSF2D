@@ -107,6 +107,7 @@ MonoBehaviour:
   buff: 0
   weakPage: 0
   buffPage: 0
+  typeOfBuff: 0
 --- !u!61 &6744627745659587376
 BoxCollider2D:
   m_ObjectHideFlags: 0
