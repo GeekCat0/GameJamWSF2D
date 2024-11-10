@@ -4,6 +4,10 @@ using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
+   
+   
+	public AudioSource audio;
+    public AudioClip clip;
     bool paused = false;
     public float cooldown = 0;
     private float step = 3;
@@ -123,6 +127,7 @@ public class PlayerController : MonoBehaviour
         } else { for (int i = 0; i < inventory.Length; i++) { weapon[i].SetActive(false); } }
         if (health <= 0) 
         {
+            //audio.PlayOneShot(clip);
             Debug.Log("Died");
             paused = true;
             EnemyAi[] enemies = GameObject.FindObjectsOfType<EnemyAi>();
@@ -137,6 +142,7 @@ public class PlayerController : MonoBehaviour
         for (int i = 0; i < hearts.Length; i++) 
         {
             if (health >= i + 1) { hearts[i].SetActive(true); } else { hearts[i].SetActive(false); }
+            
         }
 
         for (int i = 0; i < items.Length; i++)
@@ -175,6 +181,7 @@ public class PlayerController : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies) 
         {
+            
             enemy.GetComponent<EnemyAi>().attacked(held);
         }
     }
